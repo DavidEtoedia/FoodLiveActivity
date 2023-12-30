@@ -11,7 +11,48 @@
 		0C23956B2B40C01D00CA5C6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C23956A2B40C01D00CA5C6A /* ContentView.swift */; };
 		0C23956D2B40C01F00CA5C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C23956C2B40C01F00CA5C6A /* Assets.xcassets */; };
 		0C2395702B40C01F00CA5C6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C23956F2B40C01F00CA5C6A /* Preview Assets.xcassets */; };
+		0C23957E2B40C06D00CA5C6A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C23957D2B40C06D00CA5C6A /* WidgetKit.framework */; };
+		0C2395802B40C06D00CA5C6A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C23957F2B40C06D00CA5C6A /* SwiftUI.framework */; };
+		0C2395832B40C06D00CA5C6A /* liveActivityBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2395822B40C06D00CA5C6A /* liveActivityBundle.swift */; };
+		0C2395852B40C06D00CA5C6A /* liveActivityLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2395842B40C06D00CA5C6A /* liveActivityLiveActivity.swift */; };
+		0C2395872B40C06D00CA5C6A /* liveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2395862B40C06D00CA5C6A /* liveActivity.swift */; };
+		0C2395892B40C06F00CA5C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2395882B40C06F00CA5C6A /* Assets.xcassets */; };
+		0C23958D2B40C06F00CA5C6A /* liveActivityExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0C23957B2B40C06D00CA5C6A /* liveActivityExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0C2395962B40C0E600CA5C6A /* LiveActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2395932B40C0E600CA5C6A /* LiveActivityManager.swift */; };
+		0C2395972B40C0E600CA5C6A /* LiveActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2395932B40C0E600CA5C6A /* LiveActivityManager.swift */; };
+		0C2395982B40C0E600CA5C6A /* FoodOrderManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2395942B40C0E600CA5C6A /* FoodOrderManger.swift */; };
+		0C2395992B40C0E600CA5C6A /* FoodOrderManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2395942B40C0E600CA5C6A /* FoodOrderManger.swift */; };
+		0C2395A72B40C10A00CA5C6A /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2395A02B40C10A00CA5C6A /* Food.swift */; };
+		0C2395A82B40C10A00CA5C6A /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2395A02B40C10A00CA5C6A /* Food.swift */; };
+		0C2395AA2B40C15900CA5C6A /* OrderAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2395A92B40C15900CA5C6A /* OrderAttributes.swift */; };
+		0C2395AB2B40C15900CA5C6A /* OrderAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2395A92B40C15900CA5C6A /* OrderAttributes.swift */; };
+		0C2395AD2B40CBF200CA5C6A /* LiveActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2395AC2B40CBF200CA5C6A /* LiveActivityView.swift */; };
+		0C2395AE2B40CBF200CA5C6A /* LiveActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2395AC2B40CBF200CA5C6A /* LiveActivityView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C23958B2B40C06F00CA5C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C23955D2B40C01C00CA5C6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C23957A2B40C06D00CA5C6A;
+			remoteInfo = liveActivityExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C2395912B40C06F00CA5C6A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0C23958D2B40C06F00CA5C6A /* liveActivityExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0C2395652B40C01D00CA5C6A /* FoodLiveActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodLiveActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +60,19 @@
 		0C23956A2B40C01D00CA5C6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C23956C2B40C01F00CA5C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C23956F2B40C01F00CA5C6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C23957B2B40C06D00CA5C6A /* liveActivityExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = liveActivityExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C23957D2B40C06D00CA5C6A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0C23957F2B40C06D00CA5C6A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		0C2395822B40C06D00CA5C6A /* liveActivityBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liveActivityBundle.swift; sourceTree = "<group>"; };
+		0C2395842B40C06D00CA5C6A /* liveActivityLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liveActivityLiveActivity.swift; sourceTree = "<group>"; };
+		0C2395862B40C06D00CA5C6A /* liveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liveActivity.swift; sourceTree = "<group>"; };
+		0C2395882B40C06F00CA5C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C23958A2B40C06F00CA5C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C2395932B40C0E600CA5C6A /* LiveActivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveActivityManager.swift; sourceTree = "<group>"; };
+		0C2395942B40C0E600CA5C6A /* FoodOrderManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodOrderManger.swift; sourceTree = "<group>"; };
+		0C2395A02B40C10A00CA5C6A /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		0C2395A92B40C15900CA5C6A /* OrderAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderAttributes.swift; sourceTree = "<group>"; };
+		0C2395AC2B40CBF200CA5C6A /* LiveActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +83,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C2395782B40C06D00CA5C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2395802B40C06D00CA5C6A /* SwiftUI.framework in Frameworks */,
+				0C23957E2B40C06D00CA5C6A /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				0C2395672B40C01D00CA5C6A /* FoodLiveActivity */,
+				0C2395812B40C06D00CA5C6A /* liveActivity */,
+				0C23957C2B40C06D00CA5C6A /* Frameworks */,
 				0C2395662B40C01D00CA5C6A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				0C2395652B40C01D00CA5C6A /* FoodLiveActivity.app */,
+				0C23957B2B40C06D00CA5C6A /* liveActivityExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +117,9 @@
 		0C2395672B40C01D00CA5C6A /* FoodLiveActivity */ = {
 			isa = PBXGroup;
 			children = (
+				0C2395A92B40C15900CA5C6A /* OrderAttributes.swift */,
+				0C23959C2B40C10A00CA5C6A /* Model */,
+				0C2395922B40C0E600CA5C6A /* Manager */,
 				0C2395682B40C01D00CA5C6A /* FoodLiveActivityApp.swift */,
 				0C23956A2B40C01D00CA5C6A /* ContentView.swift */,
 				0C23956C2B40C01F00CA5C6A /* Assets.xcassets */,
@@ -67,6 +136,45 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0C23957C2B40C06D00CA5C6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C23957D2B40C06D00CA5C6A /* WidgetKit.framework */,
+				0C23957F2B40C06D00CA5C6A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C2395812B40C06D00CA5C6A /* liveActivity */ = {
+			isa = PBXGroup;
+			children = (
+				0C2395822B40C06D00CA5C6A /* liveActivityBundle.swift */,
+				0C2395842B40C06D00CA5C6A /* liveActivityLiveActivity.swift */,
+				0C2395862B40C06D00CA5C6A /* liveActivity.swift */,
+				0C2395882B40C06F00CA5C6A /* Assets.xcassets */,
+				0C23958A2B40C06F00CA5C6A /* Info.plist */,
+				0C2395AC2B40CBF200CA5C6A /* LiveActivityView.swift */,
+			);
+			path = liveActivity;
+			sourceTree = "<group>";
+		};
+		0C2395922B40C0E600CA5C6A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0C2395932B40C0E600CA5C6A /* LiveActivityManager.swift */,
+				0C2395942B40C0E600CA5C6A /* FoodOrderManger.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		0C23959C2B40C10A00CA5C6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C2395A02B40C10A00CA5C6A /* Food.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +185,34 @@
 				0C2395612B40C01D00CA5C6A /* Sources */,
 				0C2395622B40C01D00CA5C6A /* Frameworks */,
 				0C2395632B40C01D00CA5C6A /* Resources */,
+				0C2395912B40C06F00CA5C6A /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0C23958C2B40C06F00CA5C6A /* PBXTargetDependency */,
 			);
 			name = FoodLiveActivity;
 			productName = FoodLiveActivity;
 			productReference = 0C2395652B40C01D00CA5C6A /* FoodLiveActivity.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0C23957A2B40C06D00CA5C6A /* liveActivityExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C23958E2B40C06F00CA5C6A /* Build configuration list for PBXNativeTarget "liveActivityExtension" */;
+			buildPhases = (
+				0C2395772B40C06D00CA5C6A /* Sources */,
+				0C2395782B40C06D00CA5C6A /* Frameworks */,
+				0C2395792B40C06D00CA5C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = liveActivityExtension;
+			productName = liveActivityExtension;
+			productReference = 0C23957B2B40C06D00CA5C6A /* liveActivityExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +225,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					0C2395642B40C01D00CA5C6A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					0C23957A2B40C06D00CA5C6A = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
@@ -116,6 +246,7 @@
 			projectRoot = "";
 			targets = (
 				0C2395642B40C01D00CA5C6A /* FoodLiveActivity */,
+				0C23957A2B40C06D00CA5C6A /* liveActivityExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +261,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C2395792B40C06D00CA5C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2395892B40C06F00CA5C6A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,10 +278,38 @@
 			files = (
 				0C23956B2B40C01D00CA5C6A /* ContentView.swift in Sources */,
 				0C2395692B40C01D00CA5C6A /* FoodLiveActivityApp.swift in Sources */,
+				0C2395982B40C0E600CA5C6A /* FoodOrderManger.swift in Sources */,
+				0C2395A72B40C10A00CA5C6A /* Food.swift in Sources */,
+				0C2395AD2B40CBF200CA5C6A /* LiveActivityView.swift in Sources */,
+				0C2395AA2B40C15900CA5C6A /* OrderAttributes.swift in Sources */,
+				0C2395962B40C0E600CA5C6A /* LiveActivityManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2395772B40C06D00CA5C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2395972B40C0E600CA5C6A /* LiveActivityManager.swift in Sources */,
+				0C2395832B40C06D00CA5C6A /* liveActivityBundle.swift in Sources */,
+				0C2395872B40C06D00CA5C6A /* liveActivity.swift in Sources */,
+				0C2395852B40C06D00CA5C6A /* liveActivityLiveActivity.swift in Sources */,
+				0C2395992B40C0E600CA5C6A /* FoodOrderManger.swift in Sources */,
+				0C2395A82B40C10A00CA5C6A /* Food.swift in Sources */,
+				0C2395AB2B40C15900CA5C6A /* OrderAttributes.swift in Sources */,
+				0C2395AE2B40CBF200CA5C6A /* LiveActivityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C23958C2B40C06F00CA5C6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C23957A2B40C06D00CA5C6A /* liveActivityExtension */;
+			targetProxy = 0C23958B2B40C06F00CA5C6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0C2395712B40C01F00CA5C6A /* Debug */ = {
@@ -267,6 +434,7 @@
 		0C2395742B40C01F00CA5C6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -275,6 +443,8 @@
 				DEVELOPMENT_TEAM = ABK2TMF98V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -296,6 +466,7 @@
 		0C2395752B40C01F00CA5C6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +475,8 @@
 				DEVELOPMENT_TEAM = ABK2TMF98V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +489,60 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.david.FoodLiveActivity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C23958F2B40C06F00CA5C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABK2TMF98V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = liveActivity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = liveActivity;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.FoodLiveActivity.liveActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C2395902B40C06F00CA5C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABK2TMF98V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = liveActivity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = liveActivity;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.FoodLiveActivity.liveActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +566,15 @@
 			buildConfigurations = (
 				0C2395742B40C01F00CA5C6A /* Debug */,
 				0C2395752B40C01F00CA5C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C23958E2B40C06F00CA5C6A /* Build configuration list for PBXNativeTarget "liveActivityExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C23958F2B40C06F00CA5C6A /* Debug */,
+				0C2395902B40C06F00CA5C6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
